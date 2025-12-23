@@ -17,13 +17,13 @@ namespace FlueGasAnalyzer.Response
             {
                 throw new Exception("Response ST does not match Request ST");
             }
-            var rspCN = datalist.FirstOrDefault(item => item.Contains("CN"));
-            var reqCN = datalist.FirstOrDefault(item => item.Contains("CN"));
-            if (rspCN != reqCN)
+            var rspAddr = datalist.FirstOrDefault(item => item.Contains("Addr"));
+            var reqAddr = datalist.FirstOrDefault(item => item.Contains("Addr"));
+            if (rspAddr != reqAddr)
             {
-                throw new Exception("Response CN does not match Request CN");
+                throw new Exception("Response Addr does not match Request Addr");
             }
-            RecData = new Dictionary<string, string>();
+            RecData = [];
             foreach (var item in datalist)
             {
                 var keyValue = item.Split('=', StringSplitOptions.RemoveEmptyEntries);

@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="FlueGasAnalyzer/FlueGasAnalyzer.csproj" />
+  <Project Path="Test/Test.csproj" Id="e03fa968-6eee-4ab1-9c63-4bace653e041" />
 </Solution>
