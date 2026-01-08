@@ -10,8 +10,8 @@
 		<Company>CSoft</Company>
 		<Description>泽天烟气分析仪通讯协议</Description>
 		<PackageIcon>logo.png</PackageIcon>
-		<RepositoryUrl>https://github.com/caoyiliang/Adam4017</RepositoryUrl>
-		<PackageProjectUrl>https://github.com/caoyiliang/Adam4017</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/caoyiliang/FlueGasAnalyzer</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/caoyiliang/FlueGasAnalyzer</PackageProjectUrl>
 		<Version>10.0.5</Version>
 		<PackageReleaseNotes>依赖更新</PackageReleaseNotes>
 	</PropertyGroup>
