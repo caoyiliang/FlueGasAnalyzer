@@ -12,7 +12,7 @@
 		<PackageIcon>logo.png</PackageIcon>
 		<RepositoryUrl>https://github.com/caoyiliang/FlueGasAnalyzer</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/caoyiliang/FlueGasAnalyzer</PackageProjectUrl>
-		<Version>10.0.9</Version>
+		<Version>10.0.10</Version>
 		<PackageReleaseNotes>依赖更新</PackageReleaseNotes>
 	</PropertyGroup>
 
@@ -24,7 +24,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CSoft.Protocol.ProtocolInterface" Version="10.0.14" />
+		<PackageReference Include="CSoft.Protocol.ProtocolInterface" Version="10.0.15" />
 	</ItemGroup>
 
 </Project>
